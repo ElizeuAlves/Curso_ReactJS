@@ -1,0 +1,43 @@
+                    ReactJS
+
+- Se trata de uma biblioteca que permite manipular a DOM de uma aplicação HTML;
+
+- É muito utilizado em SPAs(Single Page Applications);
+
+===================================================================================
+
+- É necessário ter o NodeJS instalado para começar um projeto com o React;
+
+- Primeiro, é instalado de forma global o pacote create-react-app:
+
+    sudo npm install -g create-react-app
+
+- Após a instalação, é possível criar um projeto utilizando o seguinte comando:
+
+    create-react-app huntweb
+
+- O comando a seguir cria a seguinte estrutura de pastas:
+
+    node_modules -> Pasta onde irão ficar as dependências(pacotes de outros usuários) do projeto;
+    public -> Todos os arquivos que o usuário final poderá acessar/usar;
+    src -> Onde ficará todo o código da aplicação;
+    .gitignore -> Configuração do Git para ignorar alguns arquivos;
+    package.json -> Onde estarão as dependências do projeto;
+
+- Alguns comandos estarão disponíveis após a criação do projeto. Ex:
+
+    npm start -> Inicia a aplicação
+
+===================================================================================
+
+- O arquivo index.js é o primeiro arquivo aberto pela aplicação React;
+
+- Um componente é um conjunto de parte visual(HTML), parte funcional(JavaScript) e a parte de 
+estilização(CSS). Um componente é construído quando essas três partes podem ser encapsuladas
+em um trecho de código;
+
+- Todo componente tem um único método obrigatório, o método render();
+
+===================================================================================
+
+
