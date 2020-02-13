@@ -40,4 +40,16 @@ em um trecho de código;
 
 ===================================================================================
 
+- Uma forma de se acessar informações de uma API é usando a biblioteca Axios;
 
+- É possível instalar a biblioteca Axios utilizando o Yarn:
+
+        yarn add axios
+
+- É possível criar uma variável informando uma URL, que se trata da URL de origem de todas as
+requisições:
+
+        const api = axios.create({ baseURL: 'https://rocketseat-node.herokuapp.com/api'});
+
+- O React possui alguns métodos que executam automaticamente, baseado no ciclo de vida de
+exibição do componente em tela. Um desses métodos é o componentDidMount();
