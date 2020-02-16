@@ -70,3 +70,9 @@ variáveis state, e sempre que houver uma alteração, ele atualizará esta alte
     render(){
         return <h1>Contagem de produtos: {this.state.products.length}</h1>    
     }
+
+===================================================================================
+
+- Para fazer a navegação, é necessário instalar uma biblioteca:
+
+    yarn add react-router-dom
