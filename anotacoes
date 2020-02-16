@@ -53,3 +53,20 @@ requisições:
 
 - O React possui alguns métodos que executam automaticamente, baseado no ciclo de vida de
 exibição do componente em tela. Um desses métodos é o componentDidMount();
+
+===================================================================================
+
+- No React existe o conceito de estado, e é possível criar essa variável estado. Ex:
+
+    state = {
+        products: [],
+    }
+
+- O método render() pode depender dessas variáveis state;
+
+- É possível escrever um trecho de código no render() que ficará "escutando" o estado das
+variáveis state, e sempre que houver uma alteração, ele atualizará esta alteração na tela. Ex:
+
+    render(){
+        return <h1>Contagem de produtos: {this.state.products.length}</h1>    
+    }
